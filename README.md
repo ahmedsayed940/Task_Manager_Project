@@ -1,48 +1,22 @@
-![React Todo App](./banner.png)
-
 # React Todo App.
 
 A complete todo application with all features.
 
-**live demo: [https://wc-react-todo-app.netlify.app/](https://wc-react-todo-app.netlify.app/)**
-
-**Watch On Youtube: [https://youtu.be/W0Uf_xu350k](https://youtu.be/W0Uf_xu350k)**
-
----
-
-### Made with ❤️ by [Shaif Arfan](https://www.instagram.com/shaifarfan08/)
-
-Like my works and want to support me?
-
-<a href="https://www.buymeacoffee.com/shaifarfan08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
-
----
-
 ## Project Description
 
-In the project, we will be creating a Complete Todo Application with all features. We will do all the CRUD operations. We will use `React.js` and to manage our states, we will use `Redux`. Also we will learn to make simple animations using `Framer Motion`. This will be a complete `beginner` friendly app. Hope you enjoy it.
+This project is a Complete Todo Application built with modern web technologies. It provides essential task management features, including:
 
-## What we are going to learn/use
+Create: Add new tasks easily.
 
-- [React](https://reactjs.org/)
-- [React Redux](https://redux.js.org/)
-- [Framer Motion](https://framer.com/motion/)
-- [React icons](https://react-icons.netlify.com/)
-- [React Hot Toast](https://react-hot-toast.com/)
-- More...
+Read: View all your tasks in a clean and organized layout.
 
-## Requirements
+Update: Edit tasks to keep them up to date.
 
-- Basic ReactJs knowledge
-- Basic HTML, CSS knowledge
+Delete: Remove completed or irrelevant tasks effortlessly.
 
-## Starter files
-
-You can find all the starter files in `starter-files` branch. You can go to the `starter-files` branch and `download zip` the starter files or You can clone the project and git checkout to `starter-files` branch.
+We leverage React.js for the front-end and Redux to efficiently manage the application's state, ensuring a seamless user experience.
 
 ## Getting Started
-
-The recommended way to get started with the project is to follow the [YouTube tutorial](https://youtu.be/W0Uf_xu350k). You will find all the step-by-step guides. Or you can start the project on your own by following the guide below.
 
 After getting the starter files, you need to go the file directory and run
 
@@ -61,42 +35,12 @@ npm start
 1. Favicon: [Flaticon.com](https://www.flaticon.com/)
 1. Code Editor: [VS Code](https://code.visualstudio.com/)
 
-## Other projects
+## Features
 
-📚 [All Web Cifar Project Tutorials](https://github.com/ShaifArfan/wc-project-tutorials)
+Add, edit, and delete tasks.
 
----
+Mark tasks as completed.
 
-## FAQ
+Responsive design for mobile and desktop.
 
-### Q: How can i get started?
-
-You can get started by following the [YouTube tutorial](https://youtu.be/W0Uf_xu350k) of this project. Here is the full tutorial video link: [coming soon].
-
-### Q: What i need to start the project?
-
-Just open your favorite code editor and follow along with the [YouTube tutorial](https://youtu.be/W0Uf_xu350k).
-
-### Q: What are the prerequisites?
-
-basics of html, css, javascript and some basic knowledge of react is enough to start this project. Rest you will learn in the tutorial.
-
-### Q: Who the project is for?
-
-The project is for the people who wanna get more skilled in `ReactJs`.
-
----
-
-## Feedback
-
-If you have any feedback, please reach out to us at [@web_cifar](http://instagram.com/web_cifar)
-
-## Support
-
-For support, join our [Community Group](http://facebook.com/groups/webcifar).
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-Happy Coding! 🚀
+State persistence with Redux.
