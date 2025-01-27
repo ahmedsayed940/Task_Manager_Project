@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Updated Dark Theme Colors */
+  --primaryPurple: #a937d6; /* Deep purple for accents */
+  --black-1: #3a6aa9; /* Dark gray for backgrounds */
+  --black-2: #23272a; /* Even darker gray */
+  --bg-1: #1c1e21; /* Main dark background */
+  --bg-2: #25272a; /* Slightly lighter for sections */
+  --bg-3: #3a6aa9; /* Highlight background */
+  --gray-1: #6e6b6e; /* Light gray for contrast */
+  --gray-2: #1b1818; /* Medium gray for text */
+  --black: #000000; /* Solid black */
+  --white: #f9f9f9; /* Near white for text */
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-1); /* Main dark background */
+  color: var(--white); /* Light text for readability */
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--bg-2); /* Section background */
+  color: var(--white);
+  border: 1px solid var(--gray-1);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
